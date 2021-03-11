@@ -1,0 +1,23 @@
+@import "variables.scss";
+@import "mixins.scss";
+@import "structure.scss";
+
+//Nav styles
+@import "nav/black-nav.scss";
+
+// Home styles
+@import "home/hero.scss";
+@import "home/promo-tours.scss";
+
+// Footer styles
+@import "footer/footer.scss";
+
+// Form styles
+@import "form/booking-form.scss";
+
+//About styles
+@import "about/about.scss";
+
+//Tour Styles
+@import "tours/tour.scss";
+@import "tours/tour-pages.scss";

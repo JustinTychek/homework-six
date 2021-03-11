@@ -1,0 +1,38 @@
+.black-nav {
+  max-width: 980px;
+  height: 60px;
+  margin: 0 auto;
+  margin-top: 20px;
+  // background-color: purple;
+  border-bottom: black solid 2px;
+  display: flex;
+  justify-content: space-between;
+
+  .logo {
+    height: 42px;
+    width: 92px;
+    background-image: url(../images/logo/logo-black.png);
+  }
+
+  .links {
+    height: 42px;
+    width: 542px;
+    align-self: center;
+    display: flex;
+    font-family: GillSans;
+
+    a {
+      text-decoration: none;
+      color: black;
+      margin: auto;
+      border-right: #79addc solid 1.5px;
+      padding-right: 20px;
+      // put a  | between the anchor tags and style that
+    }
+
+    .contact-link {
+      border-right: none;
+      margin-right: -20px;
+    }
+  }
+}
